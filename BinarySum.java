@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class BinarySum {
     public static String binarySum(String a, String b) {
         StringBuilder result = new StringBuilder();
