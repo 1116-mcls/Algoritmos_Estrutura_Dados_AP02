@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BinaryFib {
     public static void binaryFibonacci(int n) {
         int a = 0, b = 1;
