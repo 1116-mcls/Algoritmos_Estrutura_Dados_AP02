@@ -12,15 +12,12 @@ public class Fibs {
             a = b;
             b = temp;
         }
-
         return b;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         System.out.print("Digite o valor de k para calcular o Fibonacci: ");
         int k = scanner.nextInt();  
-
         int resultado = fibonacci(k);
         System.out.println("Fibonacci de " + k + " é: " + resultado);
         
